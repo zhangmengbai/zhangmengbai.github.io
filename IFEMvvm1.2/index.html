@@ -5,9 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>IFEMvvm1.2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://unpkg.com/san@latest"></script>
   <script src="src/main.js"></script>
 </head>
 <body>
-  
+  <script>
+    const MyApp = san.defineComponet({
+      template: '<h1>Hello {{name}}~</p>'
+    });
+
+    let myApp = new MyApp({
+      data: {
+        name: ' World'
+      }
+    });
+    myApp.attach(document.body);
+  </script>
 </body>
 </html>
