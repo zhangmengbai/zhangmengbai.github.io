@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>mvvm2.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://unpkg.com/san@latest"></script>
+</head>
+
+<body>
+  <script>
+    // 引入DataTypes数据校验
+    const DataTypes = san.DataTypes;
+    // 创建一个san组件
+    const MyApp = san.defineComponent({
+      template: '\
+            <div class="container">\
+                <ul class="u_input">\
+                    <li><input type="text" placeholder="姓名" value="{= name =}" on-input="setName"/></li>\
+                    <li><input type="number" placeholder="年龄" value="{= age =}" on-input="setAge"/></li>\
+                    <li><input type="text" placeholder="简介" value="{= pro =}" on-input="setPro"/></li>\
+                </ul>\
+                <button type="button" on-click="rm">移除信息</button>\
+                <ul class="u_span">\
+                    <li>姓名:<span>{{name}}</span></li>\
+                    <li>年龄:<span>{{age}}</span></li>\
+                    <li>简介:<span>{{pro}}</span></li>\
+                </ul>\
+            </div>\
+            ',
+      // 初始化组件数据
+      initData: function () {
+        return {
+          person: {
+            name: undefined,
+            age: undefined,
+            pro: undefined
+          }
+        };
+      },
+      // 将三个变量放入person对象中
+      person: DataTypes.shape({
+        name: DataTypes.string,
+        age: DataTypes.number,
+        pro: DataTypes.string
+      }),
+      // 清除数据
+      rm: function () {
+        this.data.set('name', '');
+        this.data.set('age', '');
+        this.data.set('pro', '');
+      },
+      // 改变姓名
+      setName: function () {
+        this.data.set("person.name", this.data.get("name"));
+      },
+      // 改变年龄
+      setAge: function () {
+        this.data.set("person.age", isNaN(parseInt(this.data.get("age"))) ? undefined : parseInt(this.data.get(
+          "age")));
+      },
+      // 改变简介
+      setPro: function () {
+        this.data.set("person.pro", this.data.get("pro"));
+      }
+    });
+
+    const myApp = new MyApp();
+    myApp.attach(document.body);
+  </script>
+</body>
+<link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+
+</html>

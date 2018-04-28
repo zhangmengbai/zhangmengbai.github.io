@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  width: 90px;
+  height: 40px;
+  background-color: tomato;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.container{
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.u_input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.u_input li{
+  display:inline-block;
+  margin:auto;
+  margin-right: 20px;
+}
+
+.u_input input{
+  height: 30px;
+}
+
+.u_span{
+  width: 100;
+}
+
+.u_span li{
+  display:inline-block;
+  margin:auto;
+  margin-right: 100px;
+}
