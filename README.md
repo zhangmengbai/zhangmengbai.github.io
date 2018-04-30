@@ -1,15 +1,27 @@
-# Jekyll Modern Blog Alternative Version
+# Marat
 
-A Simple, Clean and responsive modern blog for jekyll.
+![Marat](https://raw.githubusercontent.com/JohnCoene/marat/master/assets/img/screenshot.png)
 
-forked version of [inded/modern-theme](https://github.com/inded/Jekyll_modern-blog)
+Revive the values of the Enlightenment with `marat`.
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+See [Marat in action](http://johncoene.github.io/marat).
 
-## License
+Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, in which he was a j vocal advocate for the rights of man and liberty.
 
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
+1. Adapt the `_config.yml` file
+2. Replace/Delete the posts
+3. Change `about.md`
+4. Change or add your links in the `nav.yml` file located in the `_data` folder
+5. Replace the `favicon.ico`
+6. Customise the `404.md` page in the root directory
+6. Run `bundle exec jekyll serve --watch`
+7. Enlighten the masses!
 
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
+> Unlike Marat's pamphlets the theme is fully responsive.
+
+Plugins:
+
+Marat includes the following plugins.
+
+* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
+* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
