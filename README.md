@@ -1,23 +1,15 @@
-# Online-cv (Panel CV style win8)
+# Jekyll Modern Blog Alternative Version
 
-This theme is collected from [cssmoban](http://www.cssmoban.com/) and modified by [Locky](https://github.com/junlulocky)
+A Simple, Clean and responsive modern blog for jekyll.
 
-I have made this into a Jekyll Theme. Demo: [https://jekyller.github.io/online-cv](https://jekyller.github.io/online-cv)
+forked version of [inded/modern-theme](https://github.com/inded/Jekyll_modern-blog)
 
-The theme would look like this 
+## Attributions
+Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
+Using Sample images from [Fancy Crave](http://fancycrave.com/)
 
-![Demo](/demo/demo.png)
+## License
 
+Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
 
-# Installation
-
-- Fork the repository
-- Go to settings and set Github Pages source as master.
-- Your new site should be ready at https://username.github.io/online-cv/
-
-Check out for more themes: [Jekyll Themes](http://jekylltheme.org)
-
-
-# Author
-
-- [Locky](https://github.com/junlulocky)
+Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
