@@ -4,7 +4,7 @@
   "description": "慕课网音乐播放器学习",
   "author": "Emperor <lixm@dliangzao.com>",
   "private": true,
-  "homepage": "https://zhangmengbai.github.io/vue-music/",
+  "homepage": "https://zhangmengbai.github.io/vue-music/dist/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
