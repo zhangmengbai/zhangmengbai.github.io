@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f50b78b3-a471-42f4-a6fe-63ccaa9a2c11" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.01d8dc5ffb786197d26a8d22f05b9065.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.01d8dc5ffb786197d26a8d22f05b9065.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.9cb35060cb1e87973fa52cfe0159573f.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/app.9cb35060cb1e87973fa52cfe0159573f.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/music-icon.1c1933b.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/0.40bf02ada05855715d27.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/0.40bf02ada05855715d27.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/1.b81b753b87dcc4d42764.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/1.b81b753b87dcc4d42764.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.0fe4c84e137d39948032.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.0fe4c84e137d39948032.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.bde348bf6495a98c9a58.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/3.bde348bf6495a98c9a58.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.ebfe601890772259cd1d.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/app.ebfe601890772259cd1d.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.5af82dccc89786e929c4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.5af82dccc89786e929c4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.e8c60aeb46d37b6949ff.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/manifest.e8c60aeb46d37b6949ff.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.d9297eae5bbee877047e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor.d9297eae5bbee877047e.js.map" afterPath="" />
-    </list>
+    <list default="true" id="f50b78b3-a471-42f4-a6fe-63ccaa9a2c11" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -76,7 +53,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="18" />
     <option name="y" value="86" />
     <option name="width" value="1290" />
@@ -148,15 +125,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529054237123</updated>
-      <workItem from="1529054238414" duration="825000" />
+      <workItem from="1529054238414" duration="1149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="825000" />
+    <option name="totallyTimeSpent" value="1149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
