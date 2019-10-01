@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <title>mvvm2.3</title>
+  <script src="https://unpkg.com/san@latest"></script>
+</head>
+
+<body>
+</body>
+<script>
+  var MyApp = san.defineComponent({
+    template: `
+    <div class="container">
+      <p>通过控制class来实现改变</p>
+      <div class="def {{change1 ? 'change' : ''}}" on-click="changeClass1">点击改变样式</div>
+      <div style="display: inline-block;">
+        <p>通过控制style来实现改变:点击下面图形查看效果</p>
+        <div style="height: 300px; 
+        width: 300px; 
+        transition: 1s all ease;
+        font-size:20px;
+        color: #FFF;
+        text-align: center;
+        line-height: 300px;
+        {{change2 ? 'height: 0px;width: 0px;background: #41B883;border-top: 300px solid #41B883;border-right: 300px solid #41B883;border-bottom: 300px solid #35495E;border-left: 300px solid #35495E;border-radius:100%;' : 'background: #80B3FF'}}" 
+        on-click="changeClass2"></div>
+    </div>      
+  </div>
+    `,
+    initData() {
+      return {
+        change1: false,
+        change2: false
+      }
+    },
+    // raw不进行转义
+    changeClass1() {
+      this.data.set('change1', !this.data.raw.change1);
+    },
+    changeClass2() {
+      this.data.set('change2', !this.data.raw.change2);
+    },
+  });
+  const myApp = new MyApp();
+  myApp.attach(document.body);
+</script>
+
+</html>
